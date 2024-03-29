@@ -14,4 +14,4 @@ services:
       ND_BASEURL: ""
     volumes:
       - "/syn/test/navidrome_data:/data"
-      - "/syn/test/your/navidrome_music:/music:ro"
+      - "/syn/test/navidrome_music:/music:ro"

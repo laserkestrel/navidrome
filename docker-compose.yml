@@ -12,5 +12,5 @@ services:
       ND_SESSIONTIMEOUT: 24h
       ND_BASEURL: ""
     volumes:
-      - "/syn/volume2/test/navidrome_data:/data"
-      - "/syn/volume2/test/navidrome_music:/music:ro"
+      - "/10.20.30.11/volume2/test/navidrome_data:/data"
+      - "/10.20.30.11/volume2/test/navidrome_music:/music:ro"
